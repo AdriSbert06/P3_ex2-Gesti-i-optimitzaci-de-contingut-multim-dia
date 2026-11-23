@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterOutlet } from '@angular/router';
 import { IniciComponent } from './inici/inici.component';
+import { GalleryComponent } from './galeria/galeria.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import { IniciComponent } from './inici/inici.component';
     IniciComponent,
     HeaderComponent,
     FooterComponent,
-    RouterOutlet
+    RouterOutlet,
+    GalleryComponent
   ],
   templateUrl: './app.component.html',
 })
